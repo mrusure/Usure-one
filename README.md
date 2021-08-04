@@ -4,7 +4,7 @@
 - `npm i usure-api`
 
 #### 1. Where can I get Usure.one api?
-  Ans: [JavaScript](https://www.npmjs.com/package/disbots-xyz)
+  Ans: [JavaScript](https://www.npmjs.com/package/Usure-API)
 
 #### 2. How do I install it?
   Ans: JavaSciprt: npm i disbots-xyz or npm install disbots-xyz

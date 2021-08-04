@@ -1,27 +1,16 @@
-**NPM:** [npmjs.com/package/disbots-xyz](https://www.npmjs.com/package/disbots-xyz/)<br>
-
-
-<a href="https://www.npmjs.com/package/disbots-xyz/"><img src="https://img.shields.io/npm/v/disbots-xyz.svg?maxAge=3600" alt="NPM version" /></a>
-<a href="https://www.npmjs.com/package/disbots-xyz"><img src="https://img.shields.io/npm/dt/disbots-xyz.svg?maxAge=3600" alt="NPM downloads" /></a>
-
-
-<a href="https://nodei.co/npm/disbots-xyz"><img src="https://nodei.co/npm/disbots-xyz.png?downloads=true&stars=true" alt="npm installnfo" /></a>
-
 
 ## Installation
 *If you have trouble with the installation, please feel free to visit our [discord](https://discord.gg/m5vUJVztpt) address.*
-- `npm i disbots-xyz`
+- `npm i usure-api`
 
-#### 1. Where can I get DisBots.xyz api?
+#### 1. Where can I get Usure.one api?
   Ans: [JavaScript](https://www.npmjs.com/package/disbots-xyz)
-            [Python](https://pypi.org/project/disbots.py/)
 
 #### 2. How do I install it?
   Ans: JavaSciprt: npm i disbots-xyz or npm install disbots-xyz
-            Python: pip install disbots
 
 #### 3. Does it have any GitHub Repository?
-  Ans: Yes It Is [Here](https://github.com/disbotsxyz/disbots-api)
+  Ans: Yes It Is [Here](https://github.com/mrusure/Usure-api)
 
 #### 4. What is it's uses?
   Ans: To get the daily vote count, server count and information about your bot.
@@ -36,22 +25,6 @@ const dbl = new disbots("TOKEN-HERE", client);
 client.on("ready", async () => {
   dbl.serverCount();
   console.log("Server count posted")
-
-```
-  ### Python: 
-```py
-from disbots import disbots
-from discord.ext import commands
-
-client = commands.Bot(command_prefix="!") 
-dbl = disbots(client,"token of disbots")
-
-@client.event
-async def on_ready():
-  x = await dbl.serverCountPost()
-  print(x)
-
-client.run("token") 
 
 ```
 
@@ -115,4 +88,4 @@ client.on("ready", async () => {
 # Questions?
 Come talk to us here:
 
-[![Disbots.xyz](https://discord.com/api/guilds/852825880271257611/embed.png?style=banner1)](https://discord.gg/YhTU6Akzmy)
+[![Usure.one](https://discord.com/api/guilds/870401233771429908/embed.png?style=banner1)](https://discord.usure.one)
